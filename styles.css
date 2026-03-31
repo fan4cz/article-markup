@@ -1,8 +1,71 @@
 /* Тут пиши основные стили */
+h1 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 42px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 44px;
+    width: 700px;
+    height: 88px;
+    margin-top: 55px;
+    margin-left: 360px;
+    margin-right: 364px;
+}
 
+p {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 33px;
+    margin-top: 10px;
+    margin-left: 362px;
+    margin-right: 362px;
+}
+
+h2 {
+    font-family: LucidaGrande-Bold;
+    font-size: 34px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 39px;
+    margin-top: 55px;
+    margin-left: 360px;
+    margin-right: 364px;
+}
+
+img {
+    width: 700px;
+    height: 727px;
+    margin-left: 362px;
+    margin-right: 362px;
+    margin-top: 43px;
+    margin-bottom: 37;
+}
+
+.img1 {
+    width: 700px;
+    height: 923px;
+    margin-left: 362px;
+    margin-right: 362px;
+    margin-top: 43px;
+    margin-bottom: 37;
+}
+
+body {
+    width: 1424px;
+    color: #333;
+    background-color: #fff;
+    margin: 0px;
+}
+
+code {
+    font-family: "Courier New", monospace;
+    background-color: #F1F1F1;
+}
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
+    /* Тут пиши стили для мобилки.
     Стили применятся только когда страничка будет ≤800px шириной
  */
 }
